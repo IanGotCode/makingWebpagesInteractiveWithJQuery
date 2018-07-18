@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Assignment</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			$("#myBtnOne").click(function(){
+				$("p").hide();
+			});
+		});
+	</script>
+</head>
+<body>
+	<p>Hello Jquery can hide paragraph</p>
+	<p>Yes I am a second paragraph so I will also be hid by Jquery hide()</p>
+	<button type="button" id="myBtnOne">Click Me to hide!!!</button>
+</body>
+</html>
